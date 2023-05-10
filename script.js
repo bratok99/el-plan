@@ -8,10 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const inputValue = input.value;
 
-    if (inputValue == "test") {
+    if (inputValue == "benzema") {
       console.log("right");
       answer.innerHTML =
-        "<a href='https://goo.gl/maps/6R4FBxWpeU9M3eAE9?coh=178573&entry=tt' > Your next step</a>";
+        "<a href='https://goo.gl/maps/6R4FBxWpeU9M3eAE9?coh=178573&entry=tt' > your next step (click here)</a>";
     } else {
       answer.innerHTML = "wrong";
       console.log("wrong");
