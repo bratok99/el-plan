@@ -48,6 +48,7 @@ h1 {
 .question {
   font-family: "Celtasmigoria";
   font-size: 20px;
+  line-height: 30px;
   text-align: center;
   color: #fff;
   margin-bottom: 10px;

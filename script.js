@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    const inputValue = input.value;
+    const inputValue = input.value.trim();
 
     if (inputValue == "benzema") {
       console.log("right");
